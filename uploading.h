@@ -1,0 +1,46 @@
+#include<graphics.h>
+void uploading()//uploading
+{
+    setcolor(YELLOW);
+    settextstyle(3,0,6);
+    outtextxy(525,250,"UPLOADING....");
+    setlinestyle(0,0,10);
+    ellipse(690,450,0,40,50,50);
+    delay(500);
+    setcolor(BLACK);
+    ellipse(690,450,0,40,50,50);
+    setcolor(YELLOW);
+    ellipse(690,450,0,80,50,50);
+    delay(500);
+    ellipse(690,450,0,80,50,50);
+    setcolor(YELLOW);
+    ellipse(690,450,0,120,50,50);
+    delay(500);
+    ellipse(690,450,0,120,50,50);
+    setcolor(YELLOW);
+    ellipse(690,450,0,160,50,50);
+    delay(500);
+    ellipse(690,450,0,160,50,50);
+    setcolor(YELLOW);
+    ellipse(690,450,0,200,50,50);
+    delay(500);
+    ellipse(690,450,0,200,50,50);
+    setcolor(YELLOW);
+    ellipse(690,450,0,240,50,50);
+    delay(500);
+    ellipse(690,450,0,240,50,50);
+    setcolor(YELLOW);
+    ellipse(690,450,0,280,50,50);
+    delay(500);
+    ellipse(690,450,0,280,50,50);
+    setcolor(YELLOW);
+    ellipse(690,450,0,320,50,50);
+    delay(500);
+    ellipse(690,450,0,320,50,50);
+    setcolor(YELLOW);
+    ellipse(690,450,0,360,50,50);
+    delay(600);
+    outtextxy(350,250,"TRANSACTION COMPLETE");
+    delay(3000);
+    setlinestyle(0,0,1);
+}
